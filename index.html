@@ -1,0 +1,197 @@
+<html>
+    <head>
+        <title></title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"/>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    </head>
+    <body>
+        <center>
+            <img src="images/zlogo.png" alt="" width="30%" height="30%" class="img-circle">
+        </center>
+        
+        
+        <div class="navbar" style="background-color:FAABAB;">
+            <a class="navbar-brand" href="#">Zomato</a>
+            <ul class="nav navbar-nav">
+                <li class="active">
+                    <a href="#" style="font-family:'Comic Sans MS'">Home</a>
+                </li>
+                <li>
+                    <a href="#" style="font-family:'Comic Sans MS'">AboutUs</a>
+                </li>
+                  <li>
+                    <a href="login.html" style="font-family:'Comic Sans MS'">HRLogin</a>
+                </li>
+                  <li>
+                    <a href="addproduct.html" style="font-family:'Comic Sans MS'">AddProduct</a>
+                </li>
+                <li>
+                    <a href="viewdetails.html" style="font-family:'Comic Sans MS'">ViewDetails</a>
+                </li>
+                
+            </ul>
+        </div>
+        
+        <div id="carousel-id" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carousel-id" data-slide-to="0" class=""></li>
+                <li data-target="#carousel-id" data-slide-to="1" class=""></li>
+                <li data-target="#carousel-id" data-slide-to="2" class="active"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="item">
+                    <img src="images/c1.jpeg" alt="First slide" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5MDAiIGhlaWdodD0iNTAwIj48cmVjdCB3aWR0aD0iOTAwIiBoZWlnaHQ9IjUwMCIgZmlsbD0iIzc3NyI+PC9yZWN0Pjx0ZXh0IHRleHQtYW5jaG9yPSJtaWRkbGUiIHg9IjQ1MCIgeT0iMjUwIiBzdHlsZT0iZmlsbDojN2E3YTdhO2ZvbnQtd2VpZ2h0OmJvbGQ7Zm9udC1zaXplOjU2cHg7Zm9udC1mYW1pbHk6QXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWY7ZG9taW5hbnQtYmFzZWxpbmU6Y2VudHJhbCI+Rmlyc3Qgc2xpZGU8L3RleHQ+PC9zdmc+">
+                    <div class="container">
+                        <div class="carousel-caption">
+                            <h1>Example headline.</h1>
+                            <p>Note: If you're viewing this page via a <code>file://</code> URL, the "next" and "previous" Glyphicon buttons on the left and right might not load/display properly due to web browser security rules.</p>
+                            <p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="images/c2.jpeg" alt="Second slide" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5MDAiIGhlaWdodD0iNTAwIj48cmVjdCB3aWR0aD0iOTAwIiBoZWlnaHQ9IjUwMCIgZmlsbD0iIzY2NiI+PC9yZWN0Pjx0ZXh0IHRleHQtYW5jaG9yPSJtaWRkbGUiIHg9IjQ1MCIgeT0iMjUwIiBzdHlsZT0iZmlsbDojNmE2YTZhO2ZvbnQtd2VpZ2h0OmJvbGQ7Zm9udC1zaXplOjU2cHg7Zm9udC1mYW1pbHk6QXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWY7ZG9taW5hbnQtYmFzZWxpbmU6Y2VudHJhbCI+U2Vjb25kIHNsaWRlPC90ZXh0Pjwvc3ZnPg==">
+                    <div class="container">
+                        <div class="carousel-caption">
+                            <h1>Another example headline.</h1>
+                            <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                            <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="item active">
+                    <img src="images/c3.jpeg" alt="Third slide" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5MDAiIGhlaWdodD0iNTAwIj48cmVjdCB3aWR0aD0iOTAwIiBoZWlnaHQ9IjUwMCIgZmlsbD0iIzU1NSI+PC9yZWN0Pjx0ZXh0IHRleHQtYW5jaG9yPSJtaWRkbGUiIHg9IjQ1MCIgeT0iMjUwIiBzdHlsZT0iZmlsbDojNWE1YTVhO2ZvbnQtd2VpZ2h0OmJvbGQ7Zm9udC1zaXplOjU2cHg7Zm9udC1mYW1pbHk6QXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWY7ZG9taW5hbnQtYmFzZWxpbmU6Y2VudHJhbCI+VGhpcmQgc2xpZGU8L3RleHQ+PC9zdmc+">
+                    <div class="container">
+                        <div class="carousel-caption">
+                            <h1>One more for good measure.</h1>
+                            <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                            <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a class="left carousel-control" href="#carousel-id" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+            <a class="right carousel-control" href="#carousel-id" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+        </div>
+        <hr>
+        <center><h3>BankOffers</h3></center>
+        <hr>
+        
+        <div class="col-md-3">
+            <a href="#" class="thumbnail">
+                <img src="images/b1.jpeg" alt="">
+            </a>
+        </div>
+        <div class="col-md-3">
+            <a href="#" class="thumbnail">
+                <img src="images/b2.jpeg" alt="">
+            </a>
+        </div>
+        <div class="col-md-3">
+            <a href="#" class="thumbnail">
+                <img src="images/b3.jpeg" alt="">
+            </a>
+        </div>
+        <div class="col-md-3">
+            <a href="#" class="thumbnail">
+                <img src="images/b4.jpeg" alt="">
+            </a>
+        </div>
+        <hr>
+        <center><h3>TopOffers</h3></center>
+        <hr>
+        <div class="col-md-3">
+            <a href="#" class="thumbnail">
+                <img src="images/t1.jpeg" alt="">
+            </a>
+        </div>
+        <div class="col-md-3">
+            <a href="#" class="thumbnail">
+                <img src="images/t2.jpeg" alt="">
+            </a>
+        </div>
+        <div class="col-md-3">
+            <a href="#" class="thumbnail">
+                <img src="images/t3.jpeg" alt="">
+            </a>
+        </div>
+        <div class="col-md-3">
+            <a href="#" class="thumbnail">
+                <img src="images/t4.jpeg" alt="">
+            </a>
+        </div>
+        <hr>
+        <center><h3>ProductDetails</h3></center>
+        <hr>
+        
+        <div class="col-md-3">
+            <div class="thumbnail">
+                <img src="images/j1.jpeg" alt="">
+                <div class="caption">
+                    <h3>Product-1</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, natus in officia vero impedit recusandae! Nostrum saepe odio iste quos itaque vel voluptates hic optio totam quia at, dolorem fugit.
+                        Lorem ipsum dolor sit amet consectetur 
+                    </p>
+                    <p>
+                        <a href="#" class="btn btn-primary">AddCart</a>
+                        <a href="#" class="btn btn-default">Buy</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="thumbnail">
+                <img src="images/j2.jpeg" alt="">
+                <div class="caption">
+                    <h3>Product-2</h3>
+                    <p>
+                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Error saepe praesentium ab doloribus quo nobis quam necessitatibus incidunt iusto! Similique adipisci vero, consectetur perspiciatis numquam quas dolores autem vitae rerum?
+                    </p>
+                    <p>
+                        <a href="#" class="btn btn-primary">AddCart</a>
+                        <a href="#" class="btn btn-default">Buy</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="thumbnail">
+                <img src="images/j3.jpeg" alt="">
+                <div class="caption">
+                    <h3>Product-3</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas soluta natus laudantium quod suscipit? Ullam doloremque eius veniam voluptate vero consequuntur sunt? Omnis possimus quis, accusamus sint iusto labore laboriosam.
+                    </p>
+                    <p>
+                        <a href="#" class="btn btn-primary">AddCart</a>
+                        <a href="#" class="btn btn-default">Buy</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="thumbnail">
+                <img src="images/j4.jpeg" alt="">
+                <div class="caption">
+                    <h3>Product-4</h3>
+                    <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis suscipit possimus aut quam animi nostrum cum, quidem, non recusandae voluptates ipsa optio harum consectetur ipsum deleniti debitis explicabo fugit quae.
+                    </p>
+                    <p>
+                        <a href="#" class="btn btn-primary">AddCart</a>
+                        <a href="#" class="btn btn-default">Buy</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <center>
+            <h3>@CopyRight2013</h3>
+        </center>
+    </body>
+</html>
